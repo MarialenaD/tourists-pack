@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 export default function News(){
     return(
         <>
-            
+            < Header/>
             <main className="main">
                 <section className="hero">
                     <h1 className="hero-title">News</h1>
@@ -12,7 +12,7 @@ export default function News(){
                 </section>
                 
             </main>
-            
-        </>
+           < Footer/>
+         </>
     );
 }

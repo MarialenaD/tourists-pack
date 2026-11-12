@@ -26,6 +26,7 @@ export default function About() {
 
   return (
     <div className={styles.page}>
+      <Header/>
       <main className={styles.main}>
         {/* Hero Section */}
         <section className={styles.hero}>
@@ -83,6 +84,7 @@ export default function About() {
           </p>
         </section>
       </main>
+      < Footer/>
     </div>
   );
 }

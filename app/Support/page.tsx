@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 export default function Support(){
     return(
         <>
-            
+            < Header/>
             <main className="main">
                 <section className="hero">
                     <h1 className="hero-title">Support</h1>
@@ -12,6 +12,7 @@ export default function Support(){
                 </section>
                 
             </main>
+            < Footer/>
             
         </>
     );

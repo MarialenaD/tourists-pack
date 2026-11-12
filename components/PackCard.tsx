@@ -1,6 +1,8 @@
+
 "use client";
+
 import { useState } from "react";
-import img from "./../public/assets/logo.webp";
+import Image from "next/image";
 
 interface PackCardProps {
   title: string;
@@ -35,9 +37,16 @@ export default function PackCard({
             <p className="pack-subtitle">{subtitle}</p>
             <div className="pack-price">{price}</div>
             <div className="pack-duration">{duration}</div>
-            <img src={"./../public/assets/logo.webp"}></img>
+
+            <Image
+              src="/assets/logo.webp"
+              alt="Vodafone logo"
+              width={100}
+              height={100}
+            />
           </div>
         </div>
+
         {/* Back Side */}
         <div className="back">
           <div className="pack-body">
@@ -49,6 +58,7 @@ export default function PackCard({
               ))}
             </ul>
           </div>
+
           <div className="pack-footer">
             <button
               className="pack-button"

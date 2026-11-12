@@ -33,7 +33,9 @@
     gap: 6px;
 }
 
-input {
+.formGroup1 input,
+.formGroup2 input,
+.formGroup3 input {
     padding: 10px;
     border: 1px solid #dcdde1;
     border-radius: 4px;
@@ -42,7 +44,9 @@ input {
     transition: border 0.2s;
 }
 
-input:focus {
+.formGroup1 input:focus,
+.formGroup2 input:focus,
+.formGroup3 input:focus {
     border-color: #4078c0;
 }
 

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 export default function Roaming(){
     return(
         <>
-            
+            < Header/>
             <main className="main">
                 <section className="hero">
                     <h1 className="hero-title">Roaming</h1>
@@ -12,6 +12,7 @@ export default function Roaming(){
                 </section>
                 
             </main>
+            < Footer/>
             
         </>
     );
