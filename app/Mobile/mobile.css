@@ -1,0 +1,18 @@
+.mobile-container {
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mobile-container h1 {
+    color: #2563eb;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mobile-container p {
+    color: #555;
+    font-size: 18px;
+    margin: 15px 0;
+}
